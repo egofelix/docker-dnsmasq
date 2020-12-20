@@ -2,7 +2,7 @@ FROM alpine:latest
 
 MAINTAINER EgoFelix <docker@egofelix.de>
 
-RUN apk --no-cache add dnsmasq
+RUN apk --no-cache add dnsmasq-dnssec
 
 EXPOSE 53/tcp 53/udp 67/udp
 
